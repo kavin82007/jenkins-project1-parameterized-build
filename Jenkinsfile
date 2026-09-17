@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/<repo-name>.git'
+                git branch: 'main', url: 'https://github.com/kavin82007/jenkins-project1-parameterized-build.git'
             }
         }
         stage('Show Parameter') {
